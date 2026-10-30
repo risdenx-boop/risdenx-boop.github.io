@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Privacy policy for the personal Zen Mindfulness Backup Google Drive utility.">
+<title>Privacy Policy | Zen Mindfulness Backup</title>
+<style>:root{color-scheme:light;--ink:#142d33;--muted:#516269;--teal:#08777a;--line:#d9e7e5;--bg:#f7fbfa}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Arial,sans-serif}header,main,footer{max-width:790px;margin:auto;padding:22px 24px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line)}.brand{font-size:18px;font-weight:750;letter-spacing:-.02em}nav{display:flex;gap:20px;flex-wrap:wrap}a{color:var(--teal)}nav a{text-decoration:none}nav a:hover{text-decoration:underline}main{padding-top:55px;padding-bottom:70px}h1{font-size:clamp(2rem,6vw,3.15rem);line-height:1.13;letter-spacing:-.035em;margin:0 0 18px}h2{font-size:1.25rem;margin:36px 0 9px}p,li{max-width:72ch}.lead{font-size:1.16rem;color:var(--muted)}.eyebrow{text-transform:uppercase;font-size:.77rem;letter-spacing:.14em;color:var(--teal);font-weight:750}.panel{margin:30px 0;padding:20px 24px;border:1px solid var(--line);border-radius:16px;background:#fff}footer{border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}footer a{margin-left:12px}@media(max-width:560px){header{align-items:flex-start;flex-direction:column}main{padding-top:35px}}</style>
+</head><body>
+<header><div class="brand">Zen Mindfulness Backup</div><nav aria-label="Main navigation"><a href="/">Home</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header>
+<main>
+<p class="eyebrow">Effective October 30, 2026</p>
+<h1>Privacy policy</h1>
+<p>Zen Mindfulness Backup is a privately operated backup tool for the Zen Mindfulness software project. It is intended for use only by its owner and accounts the owner authorizes. This policy describes the application's intended Google API data handling. No public signup or commercial service is offered.</p>
+<h2>Information accessed</h2>
+<p>With authorization, the backup utility may read the Google account email address to verify that it is connected to the correct account. It uses Google's <code>drive.file</code> permission to create and access backup archives and related metadata in owner-approved Google Drive locations. It may read the files it creates or that the owner uses with the application, including downloading copies to verify their integrity.</p>
+<h2>How the information is used</h2>
+<p>Google data is used only for the backup workflow: identifying the authorized destination account, creating Git-history backup archives and associated records, checking their location and size, and verifying downloaded file bytes using SHA-256 checksums. It is not used for targeted advertising, profiling, or sale of personal information.</p>
+<h2>Where data is processed and stored</h2>
+<p>Backups are stored in the owner's selected Google Drive accounts. When the automated workflow is enabled, GitHub Actions processes backup data temporarily to create and verify archives. The workflow is designed to keep OAuth credentials in GitHub Actions encrypted secrets rather than publishing them in source code, public web pages, or backup reports. GitHub and Google separately operate their services under their own applicable terms and privacy policies.</p>
+<h2>Sharing and disclosure</h2>
+<p>The operator does not sell Google user data or share it with advertisers. Backup data is processed by Google Drive and GitHub Actions as needed to provide the owner's requested backup workflow; information may also be disclosed if required by applicable law.</p>
+<h2>Retention and deletion</h2>
+<p>Backup archives remain in the selected Google Drive accounts until the account owner removes them or changes the backup arrangement. Temporary workflow files may be removed when a run finishes; GitHub may retain Actions logs and artifacts under its configured retention settings. The owner may remove stored backup files directly in Google Drive and may revoke this application's authorization through Google Account security settings. Revoking access stops future authorized API access but does not itself delete copies already stored in Drive.</p>
+<h2>Security</h2>
+<p>The proposed workflow uses HTTPS to communicate with Google APIs, limits access using the Google <code>drive.file</code> scope, checks the destination account, and verifies downloaded archive hashes. No technical control is an absolute security guarantee. Backup archives may contain private project history and must not be made publicly accessible.</p>
+<h2>Your choices and contact</h2>
+<p>Granting Google Drive access is voluntary. The owner can revoke it in their Google Account and can delete backup files in Google Drive. For questions or requests about this application, email <a href="mailto:zenmindfulnessbackup@gmail.com">zenmindfulnessbackup@gmail.com</a>.</p>
+</main><footer>Zen Mindfulness Backup · Private backup utility · Contact: <a href="mailto:zenmindfulnessbackup@gmail.com">zenmindfulnessbackup@gmail.com</a></footer></body></html>
